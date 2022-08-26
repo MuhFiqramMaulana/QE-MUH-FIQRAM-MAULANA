@@ -1,0 +1,6 @@
+RESUME MATERI:
+1. sofware testing adalah pengecekan pada suatu sistem yang telah dibuat untuk tujuan layakkah tidaknya sistem ini untuk
+   di publish untuk digunakan
+2. software testing harus memiliki 2 poin penting yaitu non technical skill dan technical skill
+3. menurutku yang paling penting disini adalah dibagian non technical skill yang mengatakan time management dan 
+   organization skill karena waktu dan cara kira melakukan atau menjalan suatu sistem harus seimbang diantara keduanya.   
