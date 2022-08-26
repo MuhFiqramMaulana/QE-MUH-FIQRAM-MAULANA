@@ -1,0 +1,51 @@
+PRAKTIKUM
+Sesuai pertanyaan, kita diminta untuk mendapatkan 4 liter air menggunakan dua wadah ini.
+Pertanyaannya di sini mengasumsikan dua hal, satu adalah, wadah ini tidak dikalibrasi,
+yaitu kita tidak dapat mengukur air seperti itu dan hal lainnya adalah, bahwa kita memiliki persediaan yang tidak terbatas.
+air memungkinkan kita untuk mengisi dan membuang air kapan pun kita membutuhkannya.
+
+Jadi bagaimana kita melakukan ini?
+Sebelum kita beralih ke solusi, saya ingin memberi tahu Anda bahwa saya telah menggunakan representasi tertentu
+di sini.
+Saya telah menggunakan 1 oval untuk mewakili 1 liter air, untuk memudahkan penjelasannya.Sekarang, langkah pertama di sini adalah mengisi wadah 5 liter hingga penuh.
+Karena itu adalah wadah 5 liter, itu akan memiliki 5 liter air di dalamnya sekarang.
+Pada langkah kedua, kami memindahkan air dari wadah 5 liter ke wadah 3 liter sampai penuh.
+Itu berarti 3 liter air telah dipindahkan dari wadah 5 liter ke wadah 3 liter
+hanya menyisakan 2 liter air di dalamnya.
+Pada langkah ketiga kita akan membuang air ke dalam wadah 3 liter untuk mengosongkannya.
+Pada langkah keempat, kami akan memindahkan sisa air ke dalam wadah 5 liter yaitu air 2 liter
+ke wadah 3 liter lagi.
+Sekarang wadah 3 liter memiliki 2 liter air.
+Untuk langkah kelima, kita akan mengisi kembali wadah 5 liter.
+Untuk langkah ke-6, kami akan memindahkan air dari wadah 5 liter ke wadah 3L sampai penuh.
+
+Karena wadah 3 liter sudah memiliki 2 liter air di dalamnya, hanya akan menampung 1 lagi liter air.
+Sekarang, lihat saja wadah 5 liter.
+Ada 1, 2, 3 dan 4 liter air di dalamnya!
+Dan kami telah menyelesaikannya!
+Kita sekarang tahu bagaimana hal itu dilakukan!
+Tetapi mengetahui solusinya tidak cukup kecuali kita benar-benar memiliki beberapa mekanisme untuk
+lanjutkan dengan solusi.
+Lalu bagaimana mekanismenya? 
+Pada dasarnya, ini adalah metode hit and trial. Tetapi bagaimana kita tahu di mana kita harus memukul sehingga dapat melakukannya dengan cepat dan dengan sedikit usaha.
+Biarkan saya mencoba memberi Anda setidaknya beberapa masukan untuk memulai.
+Jadi kami membutuhkan 4 liter air tetapi kami tidak memiliki wadah 4 liter seperti itu, dan kami tidak bisa
+langsung ukur karena wadah tidak memiliki kalibrasi.
+Jadi yang bisa kita lakukan adalah, kita bisa mencoba membuat kombinasi angka liter tertentu secara berurutan
+untuk memprediksi bagaimana melakukannya.
+Beberapa cara yang masuk akal kita bisa mendapatkan 4 adalah:
+Menambahkan 2 dan 2 Menambahkan 3 dan 1 Mengurangi 1 dari 5
+Di sini opsi 5-1 dan 3+1 memiliki kemungkinan berfungsi karena kami memiliki wadah 3 liter dan 5 liter.
+Mari kita coba dengan 5 dan 1.
+Kami tidak kesulitan mendapatkan 5 liter air karena kami selalu dapat mengosongkan dan mengisinya
+itu secara penuh.Untuk mendapatkan 1 liter sepertinya agak sulit.Tapi itu tidak sesulit kelihatannya.
+Bayangkan saja, kita sebenarnya bisa mendapatkan 1 liter dengan menggunakan wadah 3 liter dan 5 liter.
+Pikirkan itu.
+5 dikurangi dari 2 kali 3 memberi kita 1.
+Ini secara praktis berarti kita diharuskan menuangkan 5 liter air ke dalam dua wadah 3 liter.
+yaitu isi wadah 5 liter dan tuangkan ke dalam wadah 3 liter untuk mengisinya, lalu buang
+air dalam wadah 3 liter dan tuangkan sisa air 2 liter lagi ke dalam 3 liter
+wadah.
+Kali ini ruang yang tidak terisi adalah 1 liter.
+Yang kita lakukan sekarang adalah, isi kembali wadah 5 liter dan tuangkan ke dalam wadah 3 liter sampai terisi.
+Jadi air dalam wadah 5 liter sekarang 5-1 = 4 liter.Inilah yang kami lakukan dalam solusi kami
