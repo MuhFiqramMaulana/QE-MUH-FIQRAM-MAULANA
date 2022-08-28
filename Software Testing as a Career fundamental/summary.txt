@@ -1,0 +1,8 @@
+1. software testing importan mencakup tiga poin penting 
+   -saves money
+   -product quality
+   -security 
+   dan customer saticfation
+2. dan testing juga ada platform yang bisa diuji antara lain iyalah API,WEB,MOBILE DAN DESKTOP
+3. dan terdapat juga tipe2 dari testing yaitu non-functional testing, functional of testing, dan terakhir maintenance
+   
