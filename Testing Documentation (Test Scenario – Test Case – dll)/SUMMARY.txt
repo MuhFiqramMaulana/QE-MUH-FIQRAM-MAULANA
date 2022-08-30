@@ -1,0 +1,18 @@
+1. Apa itu Skenario Tes?
+SEBUAH Test Scenario didefinisikan sebagai fungsionalitas apa pun yang dapat diuji. Disebut juga Tes kondisi 
+atau Kemungkinan Tes. Sebagai penguji, Anda harus menempatkan diri Anda pada
+ posisi pengguna akhir dan mencari tahu skenario dunia nyata dan kasus penggunaan Aplikasi yang Sedang Diuji.
+
+2. Pengujian Skenario
+Scenario Testing dalam pengujian perangkat lunak adalah metode di mana skenario aktual digunakan untuk menguji
+ aplikasi perangkat lunak alih-alih kasus uji. Tujuan pengujian skenario adalah untuk menguji skenario ujung
+  ke ujung untuk masalah kompleks tertentu dari perangkat lunak. Skenario membantu dengan cara yang lebih 
+  mudah untuk menguji dan mengevaluasi masalah rumit ujung ke ujung.
+3. Contoh 2: Skenario Uji untuk Situs Perbankan
+Test Scenario 1: Periksa Fungsi Login dan Otentikasi
+
+Test Scenario 2: Cek Transfer Uang bisa dilakukan
+
+Test Scenario 3: Cek Rekening Koran bisa dilihat
+
+Test Scenario 4: Cek Deposit Tetap/Deposit Berulang dapat dibuat
