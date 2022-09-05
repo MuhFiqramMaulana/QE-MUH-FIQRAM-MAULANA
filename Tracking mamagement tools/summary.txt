@@ -1,0 +1,16 @@
+1. jira mempunya 3 fitur yang biasa dipakai yaitu BUG TRACKING , ISSUE TRACKING , DAN PROJECT management
+2. Adapun langkah - langkah setelah membuat project baru, antara lain :
+   - TO DO 
+   - IN PROGRESS
+   - DELIVER 
+   - NEED FIX 
+   - DONE
+3. 7 point penting yang harus diperhatikan untuk membuat ISSUE, antara lain
+ - project
+ - issues type
+ -  reporter
+ - depriction
+ - priority
+ - assigne
+ - sprint
+ 

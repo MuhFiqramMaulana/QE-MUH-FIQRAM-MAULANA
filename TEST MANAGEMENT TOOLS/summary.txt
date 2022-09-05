@@ -1,0 +1,8 @@
+1. MONITORING DAN CONTROLLING
+   Monitoring dan controlling proyek merupakan upaya pengendalian proyek yang dilakukan untuk mengurangi penyimpangan antara
+   perencanaan proyek dengan realisasi pengerjaan proyek
+2. tujuan monitoring dan controlling 
+   Memberikan estimasi proyek dan wawasan kinerja yang dapat digunakan untuk memperbarui anggaran serta. 
+   Mendapatkan informasi yang akurat dan terbaru tentang status serta kinerja proyek sepanjang proyek berjalan. 
+   Menentukan perlu atau tidaknya tindakan korektif dan pencegahan.\
+3. test management tools bisa digunakan memakai TEST RAIL.

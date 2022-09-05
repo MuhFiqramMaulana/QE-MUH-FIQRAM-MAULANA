@@ -1,0 +1,18 @@
+ Nilai Utama Agile Testing
+1. Individu dan intraksi lebih penting daripada proses dan alat.
+Di dalam metode ini, individu dan interaksinya akan dianggap lebih penting daripada proses dan tools
+ yang digunakan. Proses dan tools yang hebat tidak akan berfungsi dengan baik jika personel tim tidak 
+ memiliki kemampuan untuk menjalankannya. Interaksi dan komunikasi antar tim juga diperlukan untuk 
+ menghindari konflik yang bisa membuat proses pengembangan berjalan tidak efektif.
+
+2. Software yang berfungsi lebih penting daripada dokumentasi yang lengkap
+Tujuan utama dari Agile development adalah untuk mengembangkan suatu software. Oleh karena itu
+, software yang berfungsi dengan baik dan berhasil di-deliver kepada user akan lebih penting nilainya
+ daripada dokumen untuk mendeskripsikan produk.
+
+3. Kolaborasi dengan klien lebih penting daripada negosiasi kontrak
+Software akan dikembangkan sesuai dengan permintaan klien. Namun sayangnya, sebagian besar 
+klien tidak memahami dunia IT sehingga mereka kesulitan untuk menjabarkan sistem yang mereka 
+inginkan. Oleh karena itu, Anda harus melibatkan klien dalam proses pengembangan software.
+ Hal ini untuk menghindari pengembangan fitur atau sistem yang tidak sesuai dengan permintaan klien.
+  Dengan terus berkomunikasi dengan klien, kesalahpahaman dapat diminimalisir.
