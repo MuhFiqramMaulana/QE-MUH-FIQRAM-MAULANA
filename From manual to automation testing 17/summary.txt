@@ -1,0 +1,24 @@
+1. 1.Manual Testing
+Pengujian manual adalah pengujian yang dilakukan secara manual oleh QA. Dalam pengujiannya QA memeriksa semua fitur pada software ,
+ untuk memastikan ada atau tidaknya bug dalam software. 
+ 
+ 2. 2. Automated Testing
+Automated test bergantung pada pra-scripted tes yang berjalan secara otomatis, 
+fungsinya untuk membandingkan hasil yang diharapkan dengan hasil yang sebenarnya.
+
+2. kelebihan 
+manual testing :
+#Mendapatakan Visual Feedback. Tools dan Scripts tidak 
+dapat membantu dalam memberikan opini maupun input mengenai tampilan UI/UX.
+
+#Unsur manusia. Bisa mendapatkan feedback dari orang secara langsung sehingga 
+mengetahui apa yang user suka dan tidak suka
+
+#Lebih murah dalam proyek jangka pendek. Jika hanya melakukan tes aplikasi sederhana yang tidak 
+terlalu banyak updates maka manual testing tidak perlu menggunakan tools ataupun software yang mahal.
+
+automated testing : 
+# Dapat menemukan bug lebih banyak dari manual tester. Script dapat mencari lebih dalam, sehinga dapat menemukan bug yang tester tidak dapat temukan.
+Kecepatan dan efisiensi. Script lebih cepat dari tester, sehingga dapat cepat selesai dalam menemukan bug.
+Test Reusable. Jika selalu mendapatkan update dan perubahan masing-masing unit/feature, maka tidak perlu menulis 
+ulang scripsts setiap saat dan dapat digunakan kembali pada regression testing.
