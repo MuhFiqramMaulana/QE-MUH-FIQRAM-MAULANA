@@ -1,0 +1,21 @@
+1. Dalam pengembangan suatu sistem ada methodology yang bernama TDD (Test Driven Development),
+ yaitu adalah methodology pengembangan dimana kita mengutamakan komponen-komponen yang akan di test 
+ untuk membuat suatu sistem yang baik untuk Stakeholder/Customer. Tetapi ada juga methodology lain yang
+  kebalikan dari TDD, ia berfokus kepada “Behavior” sebuah sistem, methodology tersebut adalah BDD 
+  (Behavior Driven Development). “Behavior” dalam konteks ini adalah hal-hal yang Stakeholder/Customer 
+  harapkan dapat dilakukan oleh suatu sistem. “Behavior” juga dapat dibilang sebagai kontrak,
+   contoh: kita ditugaskan membuat mesin ATM. 
+
+   2. Purpose
+Dalam proses pengembangan sebuah sistem, terkadang terdapat gap antara technical stakeholders dan business 
+stakeholders terkait dengan:
+
+-Pemahaman technical stakeholders (developer) mengenai kebutuhan bisnis dari sistem yang dibangun, dan
+-Pemahaman business stakeholders mengenai isu teknis dari business requirements yang diberikan.
+
+3. BDD memiliki tujuan utama untuk meningkatkan komunikasi dan kolaborasi antara seluruh stakeholders — 
+tim bisnis maupun teknikal — yang terlibat dalam pengembangan sistem. Hal ini dapat membantu memastikan bahwa:
+
+Fitur-fitur dalam sistem dapat dipahami dengan baik oleh seluruh anggota tim. Komunikasi yang baik dapat
+ menyatukan persepsi stakeholders yang berbeda-beda dalam suatu pemahaman dan ekspektasi yang sama.
+Fitur-fitur dalam sistem dapat memenuhi kebutuhan pengguna dan menghasilkan business value.

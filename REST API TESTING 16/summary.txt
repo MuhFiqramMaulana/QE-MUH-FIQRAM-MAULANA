@@ -1,0 +1,17 @@
+1. REST API sendiri bersifat stateless. Dimana setiap kali request harus menyertakan 
+   semua data dan parameter dengan lengkap ketika mengakses suatu endpoint.
+2. REST memiliki standarisasi dalam pemakaian, yaitu URL dan HTTP method. HTTP method digunakan untuk mengetahui kegunaan dari URL yang diakses, sehingga mempermudah dalam penulisan URL.
+Berikut adalah jenis HTTP method yang sering digunakan :
+. GET, digunakan untuk membaca sebuah record atau daftar record
+. POST, digunakan untuk menambah sebuah record
+. PUT, digunakan untuk mengubah semua field dalam sebuah record
+. PATCH, digunakan untuk mengubah beberapa field dalam sebuah record
+. DELETE, digunakan untuk menghapus sebuah sebuah record
+
+
+ 3.   Komponen dari HTTP Response :
+
+Status/Response Code, mengindikasikan status server terhadap resource yang direquest. misal : 404, artinya resource tidak ditemukan dan 200 response OK.
+HTTP Version, menunjukkan versi dari HTTP yang digunakan, contoh HTTP v1.1.
+Response Header, berisi metadata untuk HTTP Response. Contoh, type server, panjang content, tipe content, waktu response, dll
+Response Body, konten dari data yang diberikan. 
