@@ -1,0 +1,29 @@
+1. Serenity adalah pustaka pelaporan sumber terbuka yang memungkinkan pengembang untuk menulis kriteria penerimaan 
+yang mudah dipahami dan terstruktur dengan lebih baik untuk proyek otomasi pengujian. Selain menghasilkan laporan 
+yang berarti untuk setiap pengujian, alat ini juga menampilkan daftar fitur yang diuji dalam setiap kasus pengujian. 
+Dengan detail pengujian yang dijalankan dan persyaratan yang diuji, 
+Serenity BDD Framework memungkinkan Anda untuk lebih memahami cara kerja aplikasi dan fungsinya.
+
+2. Apa itu BDD?
+BDD adalah singkatan dari Behavior-driven Development. 
+Ini sebenarnya telah berkembang dari Test-driven Development (TDD) yang berbicara tentang menulis kasus
+ uji sebelum menulis kode. BDD juga mengambil pendekatan yang sama tetapi berfokus pada perilaku sistem 
+ dan perilaku pengguna. Dalam lingkungan BDD, tes ditulis dalam bahasa bersama sehingga semua pemangku
+  kepentingan (teknis dan non-teknis) akan dapat memahami cara kerja aplikasi. Ini juga memfasilitasi
+   kolaborasi yang baik antara tim yang berbeda. Kemampuan untuk menulis kasus uji dalam bahasa umum 
+   seperti bahasa Inggris memberikan keuntungan besar bagi pengembang sambil mempersiapkan kriteria pengujian penerimaan. 
+Anda dapat menulis kasus uji yang menggambarkan skenario waktu nyata.
+
+3. An example of a BDD template is
+
+Given
+When
+Then
+Another example is
+
+As a (premium customer)
+I want (to browse the new arrivals in the fashion accessories segment)
+So that (I can order the best apparels)
+BDD comes with a minimal learning curve owing to the usage of a shared language. It provides seamless collaboration between different teams. Here, you are defining the behavior and not the test. So, the acceptance criteria is defined before developing the code which is beneficial for business owners as they get a clear understanding of how the application behaves instead of thinking about the features.
+
+Cucumber and Serenity are a couple of popular BDD frameworks.

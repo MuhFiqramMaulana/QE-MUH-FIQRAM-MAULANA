@@ -1,0 +1,24 @@
+1. Form dalam HTML adalah suatu bagian yang berfungsi sebagai input atau masukan
+dari pengguna yang kemudian akan diproses atau diolah untuk dapat digunakan
+sesuai dengan kebutuhan. Contohnya proses pengiriman data, browse, hapus,
+penyuntingan data dan lain sebagainya
+
+2. Menu Form
+Form dalam HTML adalah suatu bagian yang berfungsi sebagai input atau
+masukan dari pengguna yang kemudian akan diproses atau diolah untuk dapat
+digunakan sesuai dengan kebutuhan. Contohnya proses pengiriman data,
+browse, hapus, penyuntingan data dan lain sebagainya. 
+
+3. Perhatikan juga bahwa kita menggunakan atribut type pada elemen ini untuk
+menentukan data-data yang akan diisikan. Terdapat banyak jenis tipe data yang
+dapat kita isikan, dan browser akan menyesuaikan jenis masukan teks yang ada,
+sesuai dengan atribut type yang kita tentukan. Nilai-nilai yang dapat diisikan pada
+atribut type yaitu:
+1. color 9. time
+2. datetime-local 10. datetime
+3. number 11. month
+4. tel 12. search
+5. week 13. url
+6. date 14. password
+7. email 15. text
+8. range 16. file

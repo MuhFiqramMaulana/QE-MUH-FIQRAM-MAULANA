@@ -1,0 +1,22 @@
+1. Apa itu RestAssured dan penggunaannya
+Rest Assured adalah teknologi open source yang sangat banyak digunakan untuk Pengujian Otomasi REST API, ini didasarkan pada perpustakaan berbasis java.
+
+Rest Assured berinteraksi dengan Rest API dalam mode klien tanpa kepala, kita dapat meningkatkan
+ permintaan yang sama dengan menambahkan lapisan yang berbeda untuk membentuk permintaan dan membuat permintaan HTTP melalui kata kerja HTTPS yang berbeda ke server.
+
+Perpustakaan bawaan Rest Assured menyediakan metode dan utilitas yang sangat besar untuk 
+melakukan validasi respons yang diterima dari server seperti pesan status, kode status, dan isi respons.
+
+2. Validasi respons rest API :
+1. Menangkap respons JSON dari permintaan API.
+
+2. Kueri untuk circuitId menggunakan ekspresi GPath "MRData.CircuitTable.Circuits.circuitId"
+
+3. Memverifikasi bahwa kumpulan elemen circuitId memiliki ukuran 20
+
+Di sini kami menggunakan Pencocok Hamcrest untuk berbagai validasi seperti
+
+Ada berbagai metode lain yang berguna untuk melakukan validasi tertentu.
+
+Anda selanjutnya dapat merujuk ke dokumentasi pustaka Hamcrest untuk daftar lengkap matcher dan metode.
+3. 

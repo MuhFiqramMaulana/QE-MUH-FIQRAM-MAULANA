@@ -1,0 +1,30 @@
+1 Performance Test adalah Proses pengujian untuk menentukan kinerja produk perangkat lunak
+
+2.  pentingnya performance test:
+     - Kinerja aplikasi memiliki dampak besar pada kualitas dan popularitas secara keseluruhan, 
+     terutama dalam kasus di mana organisasi bergantung pada TI untuk aktivitas bisnis utama.
+     - Klien memiliki harapan yang jelas dalam hal kualitas dan menjadi lebih menuntut.
+     - Setiap klien mencari aplikasi yang andal dan cepat; pengujian kinerja 
+     memastikan bahwa semua aplikasi bekerja secara optimal dan tersedia serta cepat.
+     - Kebutuhan untuk menghilangkan kemacetan menjadi lebih besar di dunia bisnis yang kompetitif ini. Pengujian kinerja memastikan
+      bahwa kemacetan diidentifikasi dan dihilangkan sebelum aplikasi masuk ke tahap produksi.
+
+3. Tes kinerja adalah penyelidikan teknis untuk memvalidasi respons, 
+kecepatan, skalabilitas, dan/atau karakteristik stabilitas produk yang diuji. 
+
+- 1. Pengujian Beban:
+Ini memverifikasi perilaku aplikasi di bawah kondisi beban normal dan puncak.
+
+Pengujian beban dilakukan untuk memverifikasi bahwa aplikasi kami dapat memenuhi tujuan kinerja yang kami inginkan; 
+tujuan kinerja ini sering ditentukan dalam perjanjian tingkat layanan (SLA).
+
+- 2. Pengujian Daya Tahan:
+Ini adalah bagian dari pengujian Beban, digunakan untuk memvalidasi kinerja sistem di bawah beban berkelanjutan.
+
+Pengujian ketahanan menghitung Mean \
+Time Between Failure (MTBF), Mean Time To Failure (MTTF), dan metrik serupa.
+- 3. Pengujian Stres:
+Ini memvalidasi perilaku aplikasi ketika didorong melampaui kondisi beban normal atau puncak.
+
+Tujuan dari stress testing adalah untuk mengungkapkan bug aplikasi yang muncul hanya di bawah kondisi beban tinggi. Bug ini dapat mencakup hal-hal seperti masalah sinkronisasi, kondisi balapan, dan kebocoran memori. Stress testing memungkinkan Anda untuk mengidentifikasi titik lemah 
+aplikasi Anda dan menunjukkan bagaimana aplikasi berperilaku dalam kondisi beban yang ekstrim.

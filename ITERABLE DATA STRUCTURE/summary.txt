@@ -1,0 +1,14 @@
+1. Iterator adalah salah satu interface yang tersedia di dalam library Java, yang berlokasi di java.util package. Iterator digunakan untuk mengakses dan menampilkan nilai beserta tambahan method lain yang didefinisikan di dalam interface Iterator. Pada umumya untuk 
+mengakses seluruh elemen yang ada pada ArrayList, kita menggunakan perulangan seperti for each, dengan menggunakan Iterator, 
+kita dapat menambahkan beberapa method tambahan lainnya.
+
+2. Memodifikasi Nilai Menggunakan Interface ListIterator
+
+Pada Java, kita juga dapat menggunakan Interface ListIterator ,yang mengextend atau mewarisi interface dari Iterator. Dengan begitu, 
+Kita dapat memodifikasi nilai pada elementt yang akan ditampilkan
+
+3. Belajar Menggunakan Iterator pada Java
+
+Pada program berikut ini, kita akan membuat sebuah objek ArrayList, yang akan saya berinama hewan, 
+objek hewan tersebut digunakan untuk menyimpan nilai dengan tipe data String, lalu
+ menginisialisasi method Iterator yang terdapat pada objek hewan dari collection ArrayList
