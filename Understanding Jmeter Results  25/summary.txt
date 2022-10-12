@@ -1,0 +1,13 @@
+Pendengar UI
+JMeter memiliki sejumlah Pendengar UI yang dapat digunakan untuk melihat hasil langsung di UI JMeter:
+
+Lihat Hasil sebagai Pohon : Pohon Tampilan Hasil menunjukkan pohon dari semua respons sampel, memungkinkan Anda melihat respons untuk sampel apa pun.,
+Hasil Grafik : Pendengar Hasil Grafik menghasilkan grafik sederhana yang memplot semua waktu sampel,
+Laporan Agregat : Laporan agregat membuat baris tabel untuk setiap permintaan dengan nama berbeda dalam pengujian Anda,
+Lihat Hasil Dalam Tabel : Visualisator ini membuat baris untuk setiap hasil sampel. Seperti Pohon Tampilan Hasil, visualizer ini menggunakan banyak memori,
+Grafik Agregat : Grafik agregat mirip dengan laporan agregat. Perbedaan utama adalah grafik agregat menyediakan cara mudah untuk menghasilkan grafik batang dan menyimpan grafik sebagai file PNG,
+Hasilkan Ringkasan Hasil : Elemen pengujian ini dapat ditempatkan di mana saja dalam rencana pengujian. Menghasilkan ringkasan uji coba sejauh ini ke file log dan/atau output standar. Total lari dan diferensial ditampilkan.
+Beberapa pendengar telah dihilangkan: pendengar ini hanya untuk tujuan debugging. Pendengar ini membantu mendiagnosis masalah pembuatan skrip tetapi tidak dimaksudkan untuk memberikan metrik kinerja, seperti yang berikut:
+
+Comparison Assertion Visualizer : Comparison Assertion Visualizer menampilkan hasil dari elemen Comparison Assertion,
+atau Hasil Pernyataan : Visualisasi Hasil Pernyataan menunjukkan Label dari setiap sampel yang diambil.

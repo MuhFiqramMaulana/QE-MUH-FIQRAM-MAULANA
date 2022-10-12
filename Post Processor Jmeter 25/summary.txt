@@ -1,0 +1,52 @@
+1.  Jmeter. BeanShell PostProcessor
+Saya telah melalui bean shell scripting di jmeter tetapi saya tidak menemukan contoh apa pun tentang itu,
+ bagaimana itu berguna di jmeter dan dengan cara apa.berarti membaca cara membaca nilai sampler dll. 
+Adakah yang bisa menjelaskan skrip bean shell di Jmeter dengan contoh. Dalam skrip beanshell post / pre processor 
+di mana kita menulis skrip. Saya berjuang dengan ini apa penggunaan sebenarnya dari itu. dengan ini. 
+Ini akan sangat membantu saya atau orang lain juga untuk memahami penggunaan itu.
+
+2. Prosesor POST JMeter
+Post Processor dijalankan ketika eksekusi permintaan Sampler selesai. Ada berbagai prosesor Post yang digunakan di JMeter.
+
+Daftar elemen termasuk:
+
+Ekstraktor Ekspresi Reguler
+Ekstraktor CSS/JQuery
+Ekstraktor XPath
+Pemroses Posting BeanShell
+Penangan Tindakan Status Hasil
+Prosesor Pos JSR223
+Prosesor Pos JDBC
+Pemroses Posting Jalur JSON
+Ekstraktor Batas
+Pemroses Pos BSF
+Prosesor Posting Debug
+
+3. Bagaimana itu bekerja:
+
+Permintaan Sampler -> Terapkan ekstraktor ekspresi reguler -> Informasi/Ekstraksi nilai -> Pembuatan String Template -> Penyimpanan nilai/Informasi yang diekstraksi dalam nama variabel tertentu
+
+Buat Rencana Tes
+Tambahkan Grup Utas
+Tambahkan Sampler "Permintaan HTTP"
+Tambahkan Prosesor "Ekstraktor ekspresi reguler"
+Terapkan Ke: " Terapkan ke" memiliki 4 opsi.
+
+Sampel Utama dan Sub Sampel: Ini berlaku untuk sampel utama dan Sub Sampel.
+Hanya Sampel Utama: Ini hanya diterapkan pada sampel utama.
+Hanya Sub Sampel: Ini diterapkan hanya untuk Sub Sampel.
+Variabel JMeter: Ekstraksi diterapkan pada variabel bernama saja.
+Field To Check: Bidang yang akan diperiksa memiliki sejumlah opsi. Semua nama bidang cukup jelas seperti namanya.
+
+Badan mewakili badan tanggapan yaitu konten tidak termasuk header.
+Body (Unescaped): Isi respons yang mengganti semua kode escape HTML.
+Body as a Document – ​​Dari jumlah data dokumen yang diekstraksi.
+Nama variabel yang dibuat akan menyimpan teks yang diekstraksi.
+Ekspresi reguler akan mencocokkan pola dengan teks yang akan diekstraksi. '.+?' mewakili satu contoh teks yang ditempatkan oleh tag.
+Template: Template digunakan untuk membuat String agar nilai yang diekstrak cocok.
+$1$ mewakili grup 1
+No Pertandingan (0 untuk Acak): Untuk mendapatkan yang mana yang akan dipilih sebagai variabel.
+
+0 menunjukkan nilai acak dari hasil yang ditemukan.
+Angka ke- n menunjukkan angka ke-n dari hasil yang ditemukan.
+Angka negatif apa pun – menunjukkan bahwa semua data harus diekstraksi .
