@@ -1,0 +1,58 @@
+Performance testing, sesuai dengan namanya, adalah pengujian non-functional yang dilakukan untuk mengetahui behavior 
+atau performa dari sebuah sistem saat dihadapkan pada situasi yang bervariasi sehingga dapat menghindari kegagalan 
+sistem seperti contohnya system down.
+
+
+
+Pada pengujian ini, seorang software tester / QA tidak dituntut untuk mencari error melainkan mencari hambatan-hambatan 
+yang dapat membuat sebuah aplikasi loading terlalu lama atau mungkin gagal diakses. Aplikasi yang loading-nya
+ lama tentu akan memberikan penilaian yang buruk pada user.
+
+Dalam performance testing ada beberapa faktor yang menjadi fokus pada pengujian ini, diantaranya :
+- Speed : melihat kecepatan sistem dalam memberikan respon dari setiap request
+- Scalability : menentukan berapa jumlah load/user/thread maksimum yang dapat ditangani sistem
+- Stability : menganalisis kondisi sistem saat diberikan beban yang bervariasi, apakah stabil atau tidak
+
+Secara umum, ada 4 jenis performance testing dengan tujuan pengujian yang berbeda-beda. Saya akan menjabarkannya
+ secara detail dengan contoh kasus yang umum terjadi.
+
+Load Testing
+Merupakan bagian dari teknik pengujian performance dimana tujuan pengujian ini adalah untuk menentukan target 
+load dari sebuah sistem. Pengujian ini diperlukan saat adanya sebuah event musiman yang menyebabkan lalu lintas
+ (traffic) sistem bertambah seiring berjalannya waktu.
+Contohnya, pada sebuah aplikasi penjualanan tiket yang traffic-nya perlahan akan 
+bertambah saat sebuah event mulai mendekati. Misalnya acara tahun baru yang terjadi di tanggal 1 Januari, 
+mungkin jauh-jauh hari seiring mendekatnya tahun baru, traffic dari aplikasi penjualanan tiket juga akan bertambah 
+sehingga pengujian ini diperlukan untuk mengetahui ketahanan sistem dengan menaikkan load perlahan-lahan pada setiap 
+skenario-nya, kemudian menganalisis penggunaan resource-nya apakah ada perbedaan yang signifikan atau tidak.
+
+Stress Testing
+Merupakan bagian dari teknik pengujian performance yang dijalankan untuk mengetahui limit atau batas kemampuan dari
+ sebuah sistem dengan cara membanjiri lalu lintas (traffic) sistem sampai sistem tersebut crash. Salah satu alasan
+  utama dilakukannya pengujian ini adalah untuk menghindari terjadinya kegagalan sistem (system down).
+Contoh kasus yang paling umum adalah saat sebuah aplikasi e-commerce mengadakan promo besar-besaran, sehingga 
+banyak user yang mengakses aplikasi tersebut di jam tertentu (misalnya ada waktu tertentu untuk menggunakan promo)
+ pada waktu yang bersamaan. Setelah dilakukannya pengujian ini, diharapkan tim pengembang dapat membangun sebuah 
+ sistem yang lebih kebal terhadap kasus traffic yang dibanjiri oleh banyak user.
+
+Endurance Testing
+Merupakan bagian dari teknik pengujian performance yang dijalankan untuk menganalisis behavior
+ atau performa sistem dengan load yang normal namun dalam jangka waktu yang panjang. Pengujian ini
+  dilakukan untuk menghindari terjadinya kebocoran memori (memory leak). Di beberapa instansi, endurance 
+  testing tidak menjadi bagian dari tanggung jawab seorang Software Tester/QA. Pengujian ini biasanya dilakukan
+   oleh seorang performance engineer, atau role yang lebih ahli di bidang ini.
+
+Spike Testing
+Merupakan bagian dari teknik pengujian performance yang dijalankan untuk mengetahui jumlah load system apakah
+ sesuai dengan ekspektasi. Spike dan load testing memiliki tujuan yang mirip. Bedanya dengan load testing adalah
+  pengujian ini dilakukan dengan mengirim load yang banyak dalam waktu bersamaan.
+Contohnya adalah saat mengakses website hasil ujian SBMPTN. Dengan pengujian ini, kita dapat mengetahui user 
+atau load maksimum yang dapat mengakses website tersebut pada waktu yang bersamaan.
+
+Ada beberapa tools yang dapat membantu Software Tester / QA dalam menjalankan performance testing,
+ yaitu Apache JMeter, WebLoad, SmartMeter.io, dan lain sebagainya. Masing-masing tool memiliki tujuan yang berbeda pula.
+  Misalnya untuk melakukan load test, dapat menggunakan JMeter, WebLoad. Sedangkan untuk melakukan stress test, dapat 
+  menggunakan LoadView, JMeter, Silk Performer. Saya sendiri sejauh ini hanya menggunakan Apache JMeter karena tool ini
+   dapat menjalankan load & stress testing, dan sudah memenuhi kebutuhan saya. Apache JMeter juga sangat populer karena 
+   bersifat open source, cukup mudah digunakan, tersedia banyak jenis listener sehingga saya bebas memilih listener yang
+    saya butuhkan, dan support beberapa protokol seperti HTTP, HTTPS, XML, SOAP, dan sebagainya.
