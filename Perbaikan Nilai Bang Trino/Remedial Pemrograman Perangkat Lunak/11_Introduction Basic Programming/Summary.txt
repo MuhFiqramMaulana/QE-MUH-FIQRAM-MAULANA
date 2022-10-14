@@ -1,0 +1,15 @@
+# 11_Introduction Basic Programming
+1. Java Programming
+- Digunakan untuk, Developing, Debugging, Monitoring
+- IDE : BlueJ, NetBeans, Eclipse, Intelij IDEA
+
+2. Basic Programming
+- Type data, Integer(100,0), Float(0.2,0.05), Double(0.03234,0.0015), Boolean(true,false), Char("A","Z"), String("Alterra","id"), Array
+
+- Operator, Assignment(=), Aritmathic(+,-,*,%), Unary(+,-,++,--,!), Equality & Relational(==,!=,>,>=,<,<=), Conditional(&&,||)
+
+- Input Output, Input(keyboard,file,network,program) Java Program >> "character" streams(reader,writer), Output(console,file,network,program) << Java Program "byte"streams(input streams&output streams)
+
+3. Branching & Looping
+- Branching(Percabangan), If-Then, If-Then-Else, Switch
+- Looping(Perulangan), For, While, Do-While

@@ -1,0 +1,11 @@
+# 13_Map Data Structure
+1. Map
+- method map
+- implemantation map = HashMap, WeakHashMap, LinkedHashMap, IdentityHashMap, ImmutableMap 
+
+2. Sorted Map
+- Implementation map = SortedMap, With Comparator
+
+3. Navigable Map
+- navigable map = Map << SortedMap << NavigableMap << TreeMap
+

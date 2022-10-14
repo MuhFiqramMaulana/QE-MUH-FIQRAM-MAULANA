@@ -1,0 +1,10 @@
+# 14_Iterable Map Structure
+
+1. General Purpose Impelementation
+- The most commonly used implementations, designed for everyday use
+
+2. Iterable
+- The “Iterable” was introduced to be able to use in the foreach loop
+
+3. Collection
+- Any Group of individual object which reprensent as a single unit
