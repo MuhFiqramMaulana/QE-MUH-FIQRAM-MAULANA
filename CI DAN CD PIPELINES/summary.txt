@@ -1,0 +1,12 @@
+CI/CD Dengan Github Actions
+Continuous integration (CI) dan continuous delivery (CD) adalah kumpulan praktis teknik-teknik yang membantu suatu tim dalam mempercepat pengembangan dan pengiriman perangkat lunak, implementasinya sering disebut dengan CI/CD Pipeline.
+
+Secara historis CI/CD adalah ranah bagian tim devops tetapi dengan seiring berjalannya waktu dan semakin terintegrasinya teknologi sistem pengembangan perangkat lunak maka setup CI/CD bukan hanya urusan devops. Jaman sekarang programer yang sehari-harinya memakai platform 
+seperti Github akan sangat dengan mudah men-setup pipeline CI/CD melalui fitur yang bernama Github Actions.
+
+2. Github Actions
+Proses test, build & deploy yang dilakukan programer menjadi sangat mudah dengan bantuan fitur Github Actions apalagi untuk repositori projek yang bersifat publik atau open-source, fitur ini tidaklah berbayar.
+
+Github Action tidak berbayar kecuali anda melebihi batas pemakaian maksimal seperti memakai proses action melebihi 2000 menit/bulan atau memakai penyimpanan paket di Github Package Registry melebihi 500MB.
+
+Ada banyak template atau istilahnya pre-defined alur kerja yang disediakan secara resmi oleh Github Actions dan mendukung sangat banyak bahasa pemrograman.
