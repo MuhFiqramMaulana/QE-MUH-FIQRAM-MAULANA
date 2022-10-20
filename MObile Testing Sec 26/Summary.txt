@@ -1,0 +1,11 @@
+Apa itu Appium?
+APPIUM adalah kerangka kerja Pengujian UI aplikasi seluler open source yang didistribusikan secara bebas . 
+Appium memungkinkan pengujian aplikasi asli, hybrid, dan web serta mendukung pengujian otomatisasi pada perangkat 
+fisik serta emulator atau simulator keduanya. Ini menawarkan pengujian aplikasi 
+ platform, yaitu API tunggal berfungsi untuk skrip pengujian platform Android dan iOS.
+
+ 1) Aplikasi Seluler untuk aplikasi web: Ada kemungkinan bahwa pelanggan memiliki aplikasi web dan ingin membuat aplikasi seluler untuk hal yang sama. Amazon, Jabong, Myntra dll., melakukan hal yang sama, dan saat aplikasi seluler mulai membuat booming di pasar, perusahaan komersial ini menyadari bahwa segera orang akan berpindah dari aplikasi web ke aplikasi seluler.
+
+2) Aplikasi Seluler sebagai entitas bisnis yang terpisah: Saya menguji aplikasi logistik serupa, untuk meningkatkan bisnis, ia membuat aplikasi terpisah untuk pengemudinya untuk memfasilitasi pengiriman yang lancar dan menghapus dokumen.
+
+Pengemudi telah menginstal aplikasi di ponsel mereka untuk memindahkan pengiriman ke berbagai tahap pengiriman dan status yang sesuai, dan pembaruan pengiriman tercermin dalam aplikasi web mereka yang ada.
